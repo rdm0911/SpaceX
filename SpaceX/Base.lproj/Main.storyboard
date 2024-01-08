@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EvV-Tb-hBW">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--SpaceXDetails-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="navigateToSpaceXDetailsView" title="SpaceXDetails" id="BYZ-38-t0r" customClass="SpaceXDetailsViewController" customModule="MvvmDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2kg-CN-NVt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Gln-Iv-GCi">
+                                        <rect key="frame" x="10" y="10" width="394" height="716"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rocket" translatesAutoresizingMaskIntoConstraints="NO" id="yRO-iC-oL4">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="120"/>
+                                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="WEn-CI-qFK"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5l-iX-7Db">
+                                                <rect key="frame" x="0.0" y="122" width="394" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="BGs-mV-x0Z"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09q-07-ACz">
+                                                <rect key="frame" x="0.0" y="159" width="394" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="e4w-Jc-Xgc"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50L-Vd-wX4">
+                                                <rect key="frame" x="0.0" y="196" width="394" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="n7y-sx-8FE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-zp-IFf">
+                                                <rect key="frame" x="0.0" y="248" width="394" height="468"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Gln-Iv-GCi" firstAttribute="leading" secondItem="2kg-CN-NVt" secondAttribute="leading" constant="10" id="2zC-MX-eet"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gln-Iv-GCi" secondAttribute="trailing" constant="10" id="Tah-Mi-AiN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Gln-Iv-GCi" secondAttribute="bottom" constant="10" id="VH2-g6-cBK"/>
+                                    <constraint firstItem="Gln-Iv-GCi" firstAttribute="top" secondItem="2kg-CN-NVt" secondAttribute="top" constant="10" id="lWh-Hk-lot"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2kg-CN-NVt" secondAttribute="trailing" id="0VC-Cn-WGa"/>
+                            <constraint firstItem="2kg-CN-NVt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="2Yz-Df-WUL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2kg-CN-NVt" secondAttribute="bottom" id="UKp-tX-6to"/>
+                            <constraint firstItem="2kg-CN-NVt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dYT-jF-05U"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SpaceX Details" id="OVb-yH-5jM"/>
+                    <connections>
+                        <outlet property="detailsTextView" destination="jiH-zp-IFf" id="ziO-lu-kS0"/>
+                        <outlet property="imageView" destination="yRO-iC-oL4" id="cfF-MJ-TyL"/>
+                        <outlet property="launchSiteNameLbl" destination="50L-Vd-wX4" id="fqN-sM-EUJ"/>
+                        <outlet property="missionNameLbl" destination="j5l-iX-7Db" id="XUV-dN-L6S"/>
+                        <outlet property="rocketNameLbl" destination="09q-07-ACz" id="j9v-D1-iEx"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-317" y="-280"/>
+        </scene>
+        <!--SpaceX-->
+        <scene sceneID="t1k-EM-5w2">
+            <objects>
+                <viewController title="SpaceX" id="ly0-2x-M15" userLabel="SpaceX" customClass="SpaceXViewController" customModule="MvvmDemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M5o-I4-wN5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VTB-s6-3Bx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="692"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="spaceXCell" rowHeight="63" id="33A-lt-6Bs" customClass="SpaceXTableViewCell" customModule="MvvmDemoApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="63"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="33A-lt-6Bs" id="Pix-J1-6oB">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="gji-N6-d3G">
+                                                    <rect key="frame" x="120" y="10" width="284" height="43"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w15-u2-IpU" userLabel="Mission Name">
+                                                            <rect key="frame" x="0.0" y="0.0" width="45.666666666666664" height="9.3333333333333339"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzq-nl-0an" userLabel="Rocket Name">
+                                                            <rect key="frame" x="0.0" y="11.333333333333332" width="39.666666666666664" height="9.3333333333333321"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKV-hz-Ftx" userLabel="Launch Site Name">
+                                                            <rect key="frame" x="0.0" y="22.666666666666664" width="39.666666666666664" height="9"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpj-SQ-1Df" userLabel="Date of Launch">
+                                                            <rect key="frame" x="0.0" y="33.666666666666664" width="39.666666666666664" height="9.3333333333333357"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rocket" translatesAutoresizingMaskIntoConstraints="NO" id="Ps7-Fw-HwX" userLabel="Launch patch image">
+                                                    <rect key="frame" x="10" y="10" width="100" height="43"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="100" id="3C4-pd-vfd"/>
+                                                        <constraint firstAttribute="width" constant="100" id="S3C-l1-uPH"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gji-N6-d3G" secondAttribute="trailing" constant="10" id="5YA-V2-nZq"/>
+                                                <constraint firstItem="gji-N6-d3G" firstAttribute="top" secondItem="Pix-J1-6oB" secondAttribute="top" constant="10" id="Ohn-5a-wov"/>
+                                                <constraint firstAttribute="bottom" secondItem="Ps7-Fw-HwX" secondAttribute="bottom" constant="10" id="XgL-8i-jKm"/>
+                                                <constraint firstItem="Ps7-Fw-HwX" firstAttribute="leading" secondItem="Pix-J1-6oB" secondAttribute="leading" constant="10" id="ZE1-AT-nly"/>
+                                                <constraint firstItem="Ps7-Fw-HwX" firstAttribute="top" secondItem="Pix-J1-6oB" secondAttribute="top" constant="10" id="Zty-To-OrH"/>
+                                                <constraint firstAttribute="bottom" secondItem="gji-N6-d3G" secondAttribute="bottom" constant="10" id="gGW-Kr-SKB"/>
+                                                <constraint firstItem="gji-N6-d3G" firstAttribute="leading" secondItem="Ps7-Fw-HwX" secondAttribute="trailing" constant="10" id="hr6-67-s1L"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateOfLaunchLbl" destination="Wpj-SQ-1Df" id="dQi-hg-OzC"/>
+                                            <outlet property="launchPatchImageView" destination="Ps7-Fw-HwX" id="8ao-sz-x9r"/>
+                                            <outlet property="launchSiteNameLbl" destination="LKV-hz-Ftx" id="3XY-eM-Ey7"/>
+                                            <outlet property="missionNameLbl" destination="w15-u2-IpU" id="1Bw-QD-dX0"/>
+                                            <outlet property="rocketNameLbl" destination="gzq-nl-0an" id="yqo-7V-sgO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ly0-2x-M15" id="e97-Iy-2Va"/>
+                                    <outlet property="delegate" destination="ly0-2x-M15" id="kEn-a3-oUm"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ueU-eg-fdo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VTB-s6-3Bx" firstAttribute="trailing" secondItem="ueU-eg-fdo" secondAttribute="trailing" id="3sz-zg-4ad"/>
+                            <constraint firstItem="VTB-s6-3Bx" firstAttribute="top" secondItem="ueU-eg-fdo" secondAttribute="top" id="7r3-cf-9oO"/>
+                            <constraint firstItem="VTB-s6-3Bx" firstAttribute="bottom" secondItem="ueU-eg-fdo" secondAttribute="bottom" id="MBG-GX-adC"/>
+                            <constraint firstItem="VTB-s6-3Bx" firstAttribute="leading" secondItem="ueU-eg-fdo" secondAttribute="leading" id="yT7-qt-7Mq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="SpaceX" id="6BS-oL-ZqP"/>
+                    <connections>
+                        <outlet property="spaceXTableView" destination="VTB-s6-3Bx" id="nmS-wJ-Q6m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OIL-kf-6BK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-987" y="-280"/>
+        </scene>
+        <!--Navigation-->
+        <scene sceneID="IVs-pp-ZZF">
+            <objects>
+                <navigationController title="Navigation" automaticallyAdjustsScrollViewInsets="NO" id="EvV-Tb-hBW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="T1i-15-6x5"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SAj-7v-FQQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ly0-2x-M15" kind="relationship" relationship="rootViewController" id="LDh-Ei-8nl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mES-Hv-Cag" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1741" y="-280"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rocket" width="360" height="360"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

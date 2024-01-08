@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F16BB10-0FB8-4C5C-A9CC-F960DF0CD22B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28B51DF7-02DF-45CC-BC1F-5BC59F2BB5CF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/View/SpaceXViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getSpaceXData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28B51DF7-02DF-45CC-BC1F-5BC59F2BB5CF - 3f2075a5e16873d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvvmDemoApp.SpaceXViewController.getSpaceXData() -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/View/SpaceXViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "28B51DF7-02DF-45CC-BC1F-5BC59F2BB5CF - d6ae05c881b74440"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;MvvmDemoApp.SpaceXResponse&gt;&gt;) -&gt; () in MvvmDemoApp.SpaceXViewController.getSpaceXData() -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/View/SpaceXViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E694C835-055D-4EAB-A1CC-3362E220B8A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/ViewModel/EmployeeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getSpaceXData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A448003-E325-45DD-A2B5-F7A75EDDA742"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/DataResources/EmployeeResource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getSpaceXData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B11E7462-084E-45E7-B1CF-D15CC40CE615"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/View/SpaceXViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getSpaceXData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D8B4CEB-08C3-468E-A943-45534A8F33A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/ViewModel/EmployeeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "downloadSpaceXImage(imageString:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91DA6267-13A8-4770-8EB1-29DFC6D034AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/View/TableCell/SpaceXTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getSpaceXImage(imageString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91DA6267-13A8-4770-8EB1-29DFC6D034AA - ea64a436e066c396"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvvmDemoApp.SpaceXTableViewCell.getSpaceXImage(imageString: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/View/TableCell/SpaceXTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "91DA6267-13A8-4770-8EB1-29DFC6D034AA - dd296fa52195e11a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in MvvmDemoApp.SpaceXTableViewCell.getSpaceXImage(imageString: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/View/TableCell/SpaceXTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56985232-4F3E-46BE-8257-2CF0D266EB98"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/DataResources/EmployeeResource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "downloadImage(from:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA806142-C40C-4F2F-8D0E-F79E4F62EA6D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/ViewModel/EmployeeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "downloadSpaceXImage(imageString:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA806142-C40C-4F2F-8D0E-F79E4F62EA6D - c94680e1013b659"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MvvmDemoApp.SpaceXViewModel.downloadSpaceXImage(imageString: Swift.Optional&lt;Swift.String&gt;, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/ViewModel/EmployeeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "FA806142-C40C-4F2F-8D0E-F79E4F62EA6D - bc3f5bce5ee8a402"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIImage&gt;) -&gt; () in MvvmDemoApp.SpaceXViewModel.downloadSpaceXImage(imageString: Swift.Optional&lt;Swift.String&gt;, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/ViewModel/EmployeeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71F4450C-2B73-4134-862E-ACDF79A22875"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/DataResources/EmployeeResource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "downloadImage(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71F4450C-2B73-4134-862E-ACDF79A22875 - 6b247dc5534c48cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MvvmDemoApp.SpaceXResource.downloadImage(from: Foundation.URL, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/DataResources/EmployeeResource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "71F4450C-2B73-4134-862E-ACDF79A22875 - 6b247dc5534c48cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MvvmDemoApp.SpaceXResource.downloadImage(from: Foundation.URL, completion: (Swift.Optional&lt;__C.UIImage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "MvvmDemoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyasoni/Desktop/Rohan%20Assignment/MvvmDemoApp/DataResources/EmployeeResource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "971D5734-7DCE-42C6-B35D-F79F26F0D462"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/View/TableCell/SpaceXTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "getSpaceXImage(imageString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C4DAAF4-0E75-465E-AD6D-D4560CB5E3C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MvvmDemoApp/View/Extensions/SpaceXViewController+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
